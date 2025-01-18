@@ -1,0 +1,1 @@
+# JSON Exporter for Shopware 6

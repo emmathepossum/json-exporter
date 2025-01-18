@@ -1,0 +1,37 @@
+{
+    "name": "emmathepossum/json-exporter",
+    "version": "1.0.0",
+    "description": "JSON Exporter",
+    "type": "shopware-platform-plugin",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "emmathepossum",
+            "homepage": "https://emmathepossum.dev"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "PossumJsonExporter\\": "src/"
+        }
+    },
+    "extra": {
+        "shopware-plugin-class": "PossumJsonExporter\\PossumJsonExporter",
+        "label": {
+            "de-DE": "JSON Exporter",
+            "en-GB": "JSON Exporter"
+        },
+        "description": {
+            "de-DE": "JSON Exporter",
+            "en-GB": "JSON Exporter"
+        },
+        "manufacturerLink": {
+            "de-DE": "https://github.com/emmathepossum/json-exporter",
+            "en-GB": "https://github.com/emmathepossum/json-exporter"
+        },
+        "supportLink": {
+            "de-DE": "https://github.com/emmathepossum/json-exporter/issues",
+            "en-GB": "https://github.com/emmathepossum/json-exporter/issues"
+        }
+    }
+}
