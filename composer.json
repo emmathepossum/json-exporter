@@ -12,18 +12,18 @@
     ],
     "autoload": {
         "psr-4": {
-            "PossumJsonExporter\\": "src/"
+            "Possum\\JsonExporter\\": "src/"
         }
     },
     "extra": {
-        "shopware-plugin-class": "PossumJsonExporter\\PossumJsonExporter",
+        "shopware-plugin-class": "Possum\\JsonExporter\\PossumJsonExporter",
         "label": {
             "de-DE": "JSON Exporter",
             "en-GB": "JSON Exporter"
         },
         "description": {
-            "de-DE": "JSON Exporter",
-            "en-GB": "JSON Exporter"
+            "de-DE": "Plugin um autorizierte Bestellungen zu JSON zu exportieren",
+            "en-GB": "Plugin to export Authorized Orders to JSON"
         },
         "manufacturerLink": {
             "de-DE": "https://github.com/emmathepossum/json-exporter",

@@ -1,6 +1,6 @@
 <?php declare(strict_types=1);
 
-namespace PossumJsonExporter;
+namespace Possum\JsonExporter;
 
 use Shopware\Core\Framework\Plugin;
 
